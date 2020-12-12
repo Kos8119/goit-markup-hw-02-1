@@ -21,6 +21,7 @@ li {
 header {
   background-color: var(--header-bg-color);
 }
+/* logo webstudio*/
 .web,
 .studio {
   font-family: Raleway;
@@ -34,6 +35,7 @@ header {
 .web {
   color: #2196f3;
 }
+/*navigation links*/
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -60,8 +62,67 @@ header {
 }
 /* hero*/
 .hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: #ffffff;
   background-color: var(--footer-bg-color);
+}
+/* hero button*/
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+  background-color: var(--main-bg-color);
+}
+.button:focus,
+.button:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/*our pecularities main page*/
+.peculiarities h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.peculiarities p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*our busines*/
+.our-business .team,
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-cards h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team-cards p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /* portfolio-main*/
 main {
