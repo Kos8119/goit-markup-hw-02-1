@@ -3,12 +3,14 @@
   --main-bg-color: #e5e5e5;
   --footer-bg-color: #2f303a;
   --accent-color: #2196f3;
+  --text-color: #212121;
 }
 
-body {
+body address {
   font-family: Roboto, sans-serif;
   font-style: normal;
 }
+
 a {
   text-decoration: none;
 }
@@ -23,7 +25,7 @@ header {
 .studio {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -33,13 +35,11 @@ header {
   color: #2196f3;
 }
 .nav-link {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--text-color);
 }
 .nav-link:focus,
 .nav-link:hover {
@@ -58,18 +58,22 @@ header {
 .header-contacts:hover {
   color: #2196f3;
 }
-
-/* main*/
+/* hero*/
+.hero {
+  color: #ffffff;
+  background-color: var(--footer-bg-color);
+}
+/* portfolio-main*/
 main {
   background-color: var(--main-bg-color);
 }
-
+/* cards buttons */
 .buttons {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.73;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   background-color: var(--main-bg-color);
 }
 
@@ -78,10 +82,46 @@ main {
   color: #ffffff;
   background-color: #2196f3;
 }
+/* portfolio cards*/
+.pf-cards h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
 
+.pf-cards p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*footer*/
 footer {
   background-color: var(--footer-bg-color);
 }
-.adress {
+.f-studio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #ffffff;
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
