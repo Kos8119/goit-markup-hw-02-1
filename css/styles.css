@@ -6,6 +6,7 @@
   --text-color: #212121;
 }
 
+body,
 body address {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -63,7 +64,8 @@ header {
 
 /*стартовая страница*/
 /*герой*/
-.hero {
+.hero,
+.main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -96,6 +98,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .peculiarities p {
   font-weight: 400;
